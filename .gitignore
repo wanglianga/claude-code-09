@@ -1,0 +1,45 @@
+# dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.log
+*.key
+*.pem
+*secret*
+*token*
+*credential*
+
+# Claude/Codex/local runtime data
+CLAUDE.md
+**/CLAUDE.md
+.claude/
+.codex/
+memory/
+**/memory/
+memories/
+**/memories/
+skill/
+skills/
+**/skill/
+**/skills/
+*.jsonl
+*_traces/
+traces/
+qa-results/
+qa-report*
+.playwright-cli/
+
+# editor and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
